@@ -17,33 +17,42 @@ public class Item {
         this.shelfPrice = shelfPrice;
         this.quantity = quantity;
     }
+    
     public String getName() {
         return name;
     }
+    
     public void setName(String name) {
         this.name = name;
     }
     public ItemTypeEnum getItemType() {
         return itemType;
     }
+    
     public void setItemType(ItemTypeEnum itemType) {
         this.itemType = itemType;
     }
+    
     public BigDecimal getShelfPrice() {
         return shelfPrice;
     }
+    
     public void setShelfPrice(BigDecimal shelfPrice) {
         this.shelfPrice = shelfPrice;
     }
+    
     public int getQuantity() {
         return quantity;
     }
+    
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+    
     public boolean isItemImported() {
         return itemType.isImported();
     }
+    
     public boolean isItemExempted() {
         return itemType.isExempted();
     }

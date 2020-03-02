@@ -21,6 +21,7 @@ public enum ItemTypeEnum {
     public boolean isImported(){
         return isImported;
     }
+    
     public boolean isExempted(){
         return isExempted;
     }
